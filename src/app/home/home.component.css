@@ -1,0 +1,68 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    /* overflow-x: auto; */
+    /* overflow-y: hidden !important; */
+}
+
+mat-toolbar{
+    background: white;
+}
+
+
+img {
+    height: 100px;
+    width: 130px;
+    border: 1px solid black;
+    margin-left: -40px;
+    margin-top: 10px;
+}
+
+mat-grid-list {
+    background: rgb(241, 239, 239);
+}
+
+.search-bar{
+    margin: 10px -4rem;
+    width: 17rem;
+    height: 45px;
+    background:rgb(241, 239, 239);
+    border: none;
+    border-radius: 25px;
+    font-size: medium;
+}
+.shop{
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+    border: blue;
+}
+
+.home{
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+}
+
+.people{
+    height: 30px;
+    width: 30px;
+    margin-top: 24px;
+    border: blue;
+}
+
+.box{
+    height: 30px;
+    width: 30px;
+    margin-top: 24px;
+    border: blue;
+
+}
+
+.collection-play{
+    height: 30px;
+    width: 30px;
+    margin-top: 24px;
+    border: blue;
+
+}
