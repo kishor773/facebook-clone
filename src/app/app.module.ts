@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
  import {MatGridListModule} from '@angular/material/grid-list';
  import {MatInputModule} from '@angular/material/input'
 import {TextFieldModule} from '@angular/cdk/text-field';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import {TextFieldModule} from '@angular/cdk/text-field';
     MatToolbarModule,
     MatGridListModule,
     MatInputModule,
-    TextFieldModule
+    TextFieldModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

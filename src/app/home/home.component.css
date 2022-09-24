@@ -5,7 +5,7 @@
     /* overflow-y: hidden !important; */
 }
 
-mat-toolbar{
+mat-toolbar {
     background: white;
 }
 
@@ -20,38 +20,55 @@ img {
 
 mat-grid-list {
     background: rgb(241, 239, 239);
+    height: 91.5vh;
 }
 
-.search-bar{
+
+.search-bar {
     margin: 10px -4rem;
     width: 17rem;
     height: 45px;
-    background:rgb(241, 239, 239);
+    background: rgb(241, 239, 239);
     border: none;
     border-radius: 25px;
+}
+
+.search-bar-1 {
+    margin: -1px -5rem;
+    width: 44.5rem;
+    height: 45px;
+    background: rgb(241, 239, 239);
+    border: none;
+    border-radius: 25px; 
+}
+
+::placeholder{
+    color: rgb(37, 37, 37);
+    padding-left: 15px;
     font-size: medium;
 }
-.shop{
+
+.shop {
     height: 30px;
     width: 30px;
     margin-top: 20px;
     border: blue;
 }
 
-.home{
+.home {
     height: 30px;
     width: 30px;
     margin-top: 20px;
 }
 
-.people{
+.people {
     height: 30px;
     width: 30px;
     margin-top: 24px;
     border: blue;
 }
 
-.box{
+.box {
     height: 30px;
     width: 30px;
     margin-top: 24px;
@@ -59,10 +76,137 @@ mat-grid-list {
 
 }
 
-.collection-play{
+.collection-play {
     height: 30px;
     width: 30px;
     margin-top: 24px;
     border: blue;
+}
 
+.bell {
+    background: rgb(241, 239, 239);
+    border-radius: 50%;
+    padding: 10px 10px 10px 10px;
+    height: 25px;
+    width: 25px;
+    margin-top: 1px;
+    margin-left: 9em;
+}
+
+
+.example-card-1 {
+    width: 150px;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.example-card-2 {
+    width: 150px;
+    height: 230px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.example-card-3 {
+    width: 150px;
+    height: 230px;
+    border-radius: 10px;
+    margin-left: 60px;
+}
+
+.example-card-4 {
+    width: 150px;
+    height: 230px;
+    border-radius: 10px;
+    margin-left: 90px;
+}
+
+.example-card-5 {
+    width: 150px;
+    height: 230px;
+    border-radius: 10px;
+    margin-left: 120px;
+}
+
+.example-card-6{
+    border-radius: 10px;
+}
+
+.example-card-7{
+    border-radius: 10px;
+}
+
+.example-header-image-1 {
+    background-image: url('https://images.unsplash.com/photo-1542596768-5d1d21f1cf98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    margin-right: 5rem;
+}
+
+.example-header-image-2 {
+    background-image: url('https://images.unsplash.com/photo-1544168190-79c17527004f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    margin-right: 5rem;
+}
+
+.example-header-image-3 {
+    background-image: url('https://images.unsplash.com/photo-1499155286265-79a9dc9c6380?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    margin-right: 5rem;
+}
+
+.example-header-image-4 {
+    background-image: url('https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    margin-right: 5rem;
+}
+
+.example-header-image-5 {
+    background-image: url('https://img.freepik.com/free-photo/close-up-shot-pretty-woman-with-perfect-teeth-dark-clean-skin-having-rest-indoors-smiling-happily-after-received-good-positive-news_273609-1248.jpg?w=2000');
+    background-size: cover;
+    margin-right: 5rem;
+}
+
+.mat-card-image {
+    width: 150px;
+    height: 230px;
+    margin-left: -1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.photo{
+    border: none;
+    height: 30px;
+    width: 30px;
+    margin-top: -5px;
+}
+
+.person{
+    border: none;
+    height: 20px;
+    width: 20px;
+    margin-top: -5px;
+}
+
+.emoji{
+    border: none;
+    height: 30px;
+    width: 30px;
+    margin-top: -5px;
+}
+
+.header-bottom-1{
+    margin-left: 40px;
+}
+.header-bottom-2{
+    margin-left: 30px;
+}
+.header-bottom-3{
+    margin-left: 20px;
+}
+
+.fiona-post{
+    width: 49.45rem;
+    height: 30rem;
+    border:none !important ;
 }
